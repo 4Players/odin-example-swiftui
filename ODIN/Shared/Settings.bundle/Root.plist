@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>StringsTable</key>
+	<string>Root</string>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Authentication</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Server Address</string>
+			<key>Key</key>
+			<string>config.auth.server_url</string>
+			<key>DefaultValue</key>
+			<string>https://gateway.odin.4players.io</string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>URL</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Access Key</string>
+			<key>Key</key>
+			<string>config.auth.access_key</string>
+			<key>DefaultValue</key>
+			<string></string>
+			<key>IsSecure</key>
+			<false/>
+			<key>KeyboardType</key>
+			<string>Alphabet</string>
+			<key>AutocapitalizationType</key>
+			<string>None</string>
+			<key>AutocorrectionType</key>
+			<string>No</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Audio Signal Processing</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Voice Activity Detection</string>
+			<key>Key</key>
+			<string>config.apm.voice_activity_detection</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Title</key>
+			<string>Voice Activity Detection Speech Probability</string>
+			<key>Key</key>
+			<string>config.apm.voice_activity_detection_probability</string>
+			<key>MinimumValue</key>
+			<integer>0</integer>
+			<key>MaximumValue</key>
+			<integer>10</integer>
+			<key>DefaultValue</key>
+			<integer>9</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Volume Gate</string>
+			<key>Key</key>
+			<string>config.apm.volume_gate</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSSliderSpecifier</string>
+			<key>Title</key>
+			<string>Volume Gate Loudness</string>
+			<key>Key</key>
+			<string>config.apm.volume_gate_loudness</string>
+			<key>MinimumValue</key>
+			<integer>-100</integer>
+			<key>MaximumValue</key>
+			<integer>0</integer>
+			<key>DefaultValue</key>
+			<integer>-30</integer>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSMultiValueSpecifier</string>
+			<key>Title</key>
+			<string>Noise Suppression</string>
+			<key>Key</key>
+			<string>config.apm.noise_suppression</string>
+			<key>DefaultValue</key>
+			<string>2</string>
+			<key>Values</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+				<integer>3</integer>
+				<integer>4</integer>
+			</array>
+			<key>Titles</key>
+			<array>
+				<string>None</string>
+				<string>Low</string>
+				<string>Moderate</string>
+				<string>High</string>
+				<string>Very High</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Echo Canceller</string>
+			<key>Key</key>
+			<string>config.apm.echo_canceller</string>
+			<key>DefaultValue</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>High Pass Filter</string>
+			<key>Key</key>
+			<string>config.apm.high_pass_filter</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Pre-Amplifier</string>
+			<key>Key</key>
+			<string>config.apm.pre_amplifier</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSToggleSwitchSpecifier</string>
+			<key>Title</key>
+			<string>Transient Suppressor</string>
+			<key>Key</key>
+			<string>config.apm.transient_suppressor</string>
+			<key>DefaultValue</key>
+			<false/>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+			<key>Title</key>
+			<string>Version</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTitleValueSpecifier</string>
+			<key>Title</key>
+			<string>ODIN SDK</string>
+			<key>Key</key>
+			<string>version.odin</string>
+			<key>DefaultValue</key>
+			<string></string>
+		</dict>
+	</array>
+</dict>
+</plist>

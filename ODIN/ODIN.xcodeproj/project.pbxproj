@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E249FDD28C956D60053A460 /* PeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E249FDC28C956D60053A460 /* PeerView.swift */; };
+		6E249FDE28C956D60053A460 /* PeerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E249FDC28C956D60053A460 /* PeerView.swift */; };
+		6E5CC5C828B75FAC003134BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5CC5B628B75FAC003134BF /* Assets.xcassets */; };
+		6E5CC5C928B75FAC003134BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E5CC5B628B75FAC003134BF /* Assets.xcassets */; };
+		6E5CC5D628B7651D003134BF /* OdinKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5CC5D528B7651D003134BF /* OdinKit */; };
+		6E5CC5D728B7651D003134BF /* OdinKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 6E5CC5D528B7651D003134BF /* OdinKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6E5CC5DA28B76526003134BF /* OdinKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E5CC5D928B76526003134BF /* OdinKit */; };
+		6E5CC5DB28B76526003134BF /* OdinKit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 6E5CC5D928B76526003134BF /* OdinKit */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6E5CC5E628B7660E003134BF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5DE28B7660D003134BF /* LoginView.swift */; };
+		6E5CC5E728B7660E003134BF /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5DE28B7660D003134BF /* LoginView.swift */; };
+		6E5CC5E828B7660E003134BF /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5DF28B7660D003134BF /* AppSettings.swift */; };
+		6E5CC5E928B7660E003134BF /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5DF28B7660D003134BF /* AppSettings.swift */; };
+		6E5CC5EA28B7660E003134BF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5E028B7660D003134BF /* App.swift */; };
+		6E5CC5EB28B7660E003134BF /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5E028B7660D003134BF /* App.swift */; };
+		6E5CC5EE28B7660E003134BF /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5E228B7660D003134BF /* RoomView.swift */; };
+		6E5CC5EF28B7660E003134BF /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5E228B7660D003134BF /* RoomView.swift */; };
+		6E5CC5F428B7660E003134BF /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5E528B7660E003134BF /* CustomData.swift */; };
+		6E5CC5F528B7660E003134BF /* CustomData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5E528B7660E003134BF /* CustomData.swift */; };
+		6E5CC5F828B7692D003134BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5F728B7692C003134BF /* ContentView.swift */; };
+		6E5CC5F928B7692D003134BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5CC5F728B7692C003134BF /* ContentView.swift */; };
+		6E88039528BBDC7100D0E2B3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E88039428BBDC6800D0E2B3 /* Settings.bundle */; };
+		6E88039628BBDC7400D0E2B3 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E88039428BBDC6800D0E2B3 /* Settings.bundle */; };
+		6E88039828BBF05600D0E2B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88039728BBF05600D0E2B3 /* SettingsView.swift */; };
+		6E88039928BBF05600D0E2B3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E88039728BBF05600D0E2B3 /* SettingsView.swift */; };
+		6EFE8A9328C38F4F00184221 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFE8A9228C38F4F00184221 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6E5CC5D828B7651D003134BF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E5CC5D728B7651D003134BF /* OdinKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5CC5DC28B76526003134BF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				6E5CC5DB28B76526003134BF /* OdinKit in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6E249FDC28C956D60053A460 /* PeerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerView.swift; sourceTree = "<group>"; };
+		6E5CC5B628B75FAC003134BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E5CC5BB28B75FAC003134BF /* 4Players ODIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4Players ODIN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5CC5C128B75FAC003134BF /* 4Players ODIN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "4Players ODIN.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E5CC5C328B75FAC003134BF /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6E5CC5DE28B7660D003134BF /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		6E5CC5DF28B7660D003134BF /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		6E5CC5E028B7660D003134BF /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		6E5CC5E228B7660D003134BF /* RoomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
+		6E5CC5E528B7660E003134BF /* CustomData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomData.swift; sourceTree = "<group>"; };
+		6E5CC5F728B7692C003134BF /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E5CC5FB28B76CD4003134BF /* OdinKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = OdinKit; path = Packages/OdinKit; sourceTree = "<group>"; };
+		6E5CC60028B77347003134BF /* ODIN-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ODIN-Info.plist"; path = "iOS/ODIN-Info.plist"; sourceTree = "<group>"; };
+		6E88039428BBDC6800D0E2B3 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		6E88039728BBF05600D0E2B3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		6EFE8A9228C38F4F00184221 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "iOS/Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E5CC5B828B75FAC003134BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5CC5DA28B76526003134BF /* OdinKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5CC5BE28B75FAC003134BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5CC5D628B7651D003134BF /* OdinKit in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E5CC5AE28B75FAA003134BF = {
+			isa = PBXGroup;
+			children = (
+				6E5CC5FA28B76CD4003134BF /* Packages */,
+				6E5CC5B328B75FAA003134BF /* Shared */,
+				6E5CC5C228B75FAC003134BF /* macOS */,
+				6E5CC5FF28B772E8003134BF /* iOS */,
+				6E5CC5BC28B75FAC003134BF /* Products */,
+				6E5CC5D428B7651D003134BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E5CC5B328B75FAA003134BF /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CC5E028B7660D003134BF /* App.swift */,
+				6E5CC5DF28B7660D003134BF /* AppSettings.swift */,
+				6E5CC5E528B7660E003134BF /* CustomData.swift */,
+				6E5CC5F728B7692C003134BF /* ContentView.swift */,
+				6E5CC5DE28B7660D003134BF /* LoginView.swift */,
+				6E249FDC28C956D60053A460 /* PeerView.swift */,
+				6E5CC5E228B7660D003134BF /* RoomView.swift */,
+				6E88039728BBF05600D0E2B3 /* SettingsView.swift */,
+				6E88039428BBDC6800D0E2B3 /* Settings.bundle */,
+				6E5CC5B628B75FAC003134BF /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6E5CC5BC28B75FAC003134BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CC5BB28B75FAC003134BF /* 4Players ODIN.app */,
+				6E5CC5C128B75FAC003134BF /* 4Players ODIN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E5CC5C228B75FAC003134BF /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CC5C328B75FAC003134BF /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6E5CC5D428B7651D003134BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E5CC5FA28B76CD4003134BF /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				6E5CC5FB28B76CD4003134BF /* OdinKit */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		6E5CC5FF28B772E8003134BF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6EFE8A9228C38F4F00184221 /* Launch Screen.storyboard */,
+				6E5CC60028B77347003134BF /* ODIN-Info.plist */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E5CC5BA28B75FAC003134BF /* ODIN (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5CC5CC28B75FAC003134BF /* Build configuration list for PBXNativeTarget "ODIN (iOS)" */;
+			buildPhases = (
+				6E5CC5B728B75FAC003134BF /* Sources */,
+				6E5CC5B828B75FAC003134BF /* Frameworks */,
+				6E5CC5B928B75FAC003134BF /* Resources */,
+				6E5CC5DC28B76526003134BF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODIN (iOS)";
+			packageProductDependencies = (
+				6E5CC5D928B76526003134BF /* OdinKit */,
+			);
+			productName = "ODIN (iOS)";
+			productReference = 6E5CC5BB28B75FAC003134BF /* 4Players ODIN.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E5CC5C028B75FAC003134BF /* ODIN (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E5CC5CF28B75FAC003134BF /* Build configuration list for PBXNativeTarget "ODIN (macOS)" */;
+			buildPhases = (
+				6E5CC5BD28B75FAC003134BF /* Sources */,
+				6E5CC5BE28B75FAC003134BF /* Frameworks */,
+				6E5CC5BF28B75FAC003134BF /* Resources */,
+				6E5CC5D828B7651D003134BF /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ODIN (macOS)";
+			packageProductDependencies = (
+				6E5CC5D528B7651D003134BF /* OdinKit */,
+			);
+			productName = "ODIN (macOS)";
+			productReference = 6E5CC5C128B75FAC003134BF /* 4Players ODIN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E5CC5AF28B75FAA003134BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					6E5CC5BA28B75FAC003134BF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					6E5CC5C028B75FAC003134BF = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 6E5CC5B228B75FAA003134BF /* Build configuration list for PBXProject "ODIN" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E5CC5AE28B75FAA003134BF;
+			productRefGroup = 6E5CC5BC28B75FAC003134BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E5CC5C028B75FAC003134BF /* ODIN (macOS) */,
+				6E5CC5BA28B75FAC003134BF /* ODIN (iOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E5CC5B928B75FAC003134BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFE8A9328C38F4F00184221 /* Launch Screen.storyboard in Resources */,
+				6E5CC5C828B75FAC003134BF /* Assets.xcassets in Resources */,
+				6E88039528BBDC7100D0E2B3 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5CC5BF28B75FAC003134BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5CC5C928B75FAC003134BF /* Assets.xcassets in Resources */,
+				6E88039628BBDC7400D0E2B3 /* Settings.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E5CC5B728B75FAC003134BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E249FDE28C956D60053A460 /* PeerView.swift in Sources */,
+				6E88039928BBF05600D0E2B3 /* SettingsView.swift in Sources */,
+				6E5CC5E928B7660E003134BF /* AppSettings.swift in Sources */,
+				6E5CC5EB28B7660E003134BF /* App.swift in Sources */,
+				6E5CC5F928B7692D003134BF /* ContentView.swift in Sources */,
+				6E5CC5F528B7660E003134BF /* CustomData.swift in Sources */,
+				6E5CC5EF28B7660E003134BF /* RoomView.swift in Sources */,
+				6E5CC5E728B7660E003134BF /* LoginView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5CC5BD28B75FAC003134BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E249FDD28C956D60053A460 /* PeerView.swift in Sources */,
+				6E88039828BBF05600D0E2B3 /* SettingsView.swift in Sources */,
+				6E5CC5E828B7660E003134BF /* AppSettings.swift in Sources */,
+				6E5CC5EA28B7660E003134BF /* App.swift in Sources */,
+				6E5CC5F828B7692D003134BF /* ContentView.swift in Sources */,
+				6E5CC5F428B7660E003134BF /* CustomData.swift in Sources */,
+				6E5CC5EE28B7660E003134BF /* RoomView.swift in Sources */,
+				6E5CC5E628B7660E003134BF /* LoginView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6E5CC5CA28B75FAC003134BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E5CC5CB28B75FAC003134BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6E5CC5CD28B75FAC003134BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N96YMG6Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS/ODIN-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fourplayers.odin;
+				PRODUCT_MODULE_NAME = OdinClient;
+				PRODUCT_NAME = "4Players ODIN";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E5CC5CE28B75FAC003134BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N96YMG6Y7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS/ODIN-Info.plist";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fourplayers.odin;
+				PRODUCT_MODULE_NAME = OdinClient;
+				PRODUCT_NAME = "4Players ODIN";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E5CC5D028B75FAC003134BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N96YMG6Y7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fourplayers.odin;
+				PRODUCT_MODULE_NAME = OdinClient;
+				PRODUCT_NAME = "4Players ODIN";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6E5CC5D128B75FAC003134BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8N96YMG6Y7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs microphone access";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.fourplayers.odin;
+				PRODUCT_MODULE_NAME = OdinClient;
+				PRODUCT_NAME = "4Players ODIN";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E5CC5B228B75FAA003134BF /* Build configuration list for PBXProject "ODIN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5CC5CA28B75FAC003134BF /* Debug */,
+				6E5CC5CB28B75FAC003134BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5CC5CC28B75FAC003134BF /* Build configuration list for PBXNativeTarget "ODIN (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5CC5CD28B75FAC003134BF /* Debug */,
+				6E5CC5CE28B75FAC003134BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E5CC5CF28B75FAC003134BF /* Build configuration list for PBXNativeTarget "ODIN (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E5CC5D028B75FAC003134BF /* Debug */,
+				6E5CC5D128B75FAC003134BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E5CC5D528B7651D003134BF /* OdinKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OdinKit;
+		};
+		6E5CC5D928B76526003134BF /* OdinKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = OdinKit;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6E5CC5AF28B75FAA003134BF /* Project object */;
+}
