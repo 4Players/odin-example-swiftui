@@ -1,0 +1,3 @@
+[submodule "OdinKit"]
+	path = ODIN/Packages/OdinKit
+	url = ../odin-wrapper-swift.git
