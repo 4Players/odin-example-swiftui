@@ -79,6 +79,11 @@ struct SettingsView: View {
                         Text("Transient Suppressor:").frame(width: 240, alignment: .leading)
                         Toggle("", isOn: $settings.apmConfig.transient_suppressor)
                     }
+                    
+                    HStack {
+                        Text("Gain Controller:").frame(width: 240, alignment: .leading)
+                        Toggle("", isOn: $settings.apmConfig.gain_controller)
+                    }
                 }
             }
             .padding()
@@ -86,6 +91,6 @@ struct SettingsView: View {
                 Label("Signal Processing", systemImage: "music.mic")
             }
         }
-        .frame(width: 480, height: 320)
+        .frame(width: 480, height: 340)
     }
 }

@@ -14,6 +14,7 @@ class AppSettings: ObservableObject {
     private let kConfigApmPreAmplifierEnabled = "config.apm.pre_amplifier"
     private let kConfigApmNoiseSuppressionLevel = "config.apm.noise_suppression"
     private let kConfigApmTransientSuppressorEnabled = "config.apm.transient_suppressor"
+    private let kConfigApmGainControllerEnabled = "config.apm.gain_controller"
     private let kConfigRecentRoomId = "config.recent.room"
     private let kConfigRecentDisplayName = "config.recent.name"
     private let kConfigSdkVersion = "version.odin"
@@ -56,6 +57,7 @@ class AppSettings: ObservableObject {
             UserDefaults.standard.set(apmConfig.pre_amplifier, forKey: kConfigApmPreAmplifierEnabled)
             UserDefaults.standard.set(apmConfig.noise_suppression_level.rawValue, forKey: kConfigApmNoiseSuppressionLevel)
             UserDefaults.standard.set(apmConfig.transient_suppressor, forKey: kConfigApmTransientSuppressorEnabled)
+            UserDefaults.standard.set(apmConfig.gain_controller, forKey: kConfigApmGainControllerEnabled)
         }
     }
     
@@ -114,7 +116,8 @@ class AppSettings: ObservableObject {
             high_pass_filter: UserDefaults.standard.bool(forKey: kConfigApmHighPassFilterEnabled),
             pre_amplifier: UserDefaults.standard.bool(forKey: kConfigApmPreAmplifierEnabled),
             noise_suppression_level: OdinNoiseSuppressionLevel(rawValue: UInt32(noiseSuppressionLevel)),
-            transient_suppressor: UserDefaults.standard.bool(forKey: kConfigApmTransientSuppressorEnabled)
+            transient_suppressor: UserDefaults.standard.bool(forKey: kConfigApmTransientSuppressorEnabled),
+            gain_controller: UserDefaults.standard.bool(forKey: kConfigApmGainControllerEnabled)
         )
         
         UserDefaults.standard.set(ODIN_VERSION, forKey: kConfigSdkVersion)
