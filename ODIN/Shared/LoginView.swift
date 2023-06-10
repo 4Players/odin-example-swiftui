@@ -62,7 +62,7 @@ struct LoginView: View {
         }
         .padding()
     }
-    
+
     private func joinRoom() {
         do {
             let accessKey = try OdinAccessKey(settings.accessKey)
@@ -98,5 +98,17 @@ struct LoginView: View {
             showError = true
             lastError = error.localizedDescription
         }
+    }
+}
+
+struct LoginPreview: PreviewProvider {
+    @StateObject static var room: OdinRoom = .init()
+    @StateObject static var settings: AppSettings = .init()
+
+    static var previews: some View {
+        LoginView()
+            .padding(.all)
+            .environmentObject(room)
+            .environmentObject(settings)
     }
 }

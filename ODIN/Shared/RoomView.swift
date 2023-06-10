@@ -55,3 +55,12 @@ struct RoomView: View {
         try? room.leave()
     }
 }
+
+struct RoomPreview: PreviewProvider {
+    @StateObject static var room: OdinRoom = .init()
+    
+    static var previews: some View {
+        RoomView()
+            .environmentObject(room)
+    }
+}
